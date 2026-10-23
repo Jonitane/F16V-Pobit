@@ -17,3 +17,5 @@ This repository is a download channel. Updates are listed in [updates.json](upda
 The release channel uses the [update-list format](update-format.json). Each component keeps its own identity and version, and each download points to a ZIP attached to a release in this repository.
 
 Installer versions, public mod release numbers, Core versions and DLC versions are independent. The updater compares each item's own identity/version, checks its required installer version, then checks the downloaded package identity and version. GitHub release tags never substitute for a package version. When software and component updates are selected together, the installer updates first and automatically resumes only the approved component selection after restarting.
+
+Installer caches, installation records, transaction snapshots and diagnostics are stored under the installer directory. Old game-folder management data is migrated after verification. Unreferenced failed caches are removed. Backups retain first replaced game originals only; old software, component and update payload history is discarded after the transaction completes.
