@@ -4,11 +4,13 @@ Public downloads and update channel for the F16V-PoBit installer.
 
 [Download the installer](https://github.com/Jonitane/F16V-Pobit/releases/latest)
 
-Choose your aircraft folder once. The installer identifies the entry and saves the setup automatically. Select Core and the optional components you want, then install them.
+Click **Select path** and choose your aircraft path once. The installer identifies the entry and saves the setup automatically. Select Core and the optional components you want, then install them.
 
-Keep **Check updates on startup** checked to check this repository when the installer opens. When updates are available, choose the items to download. Existing selected components are removed and installed automatically; the installer restarts itself when updating its own software. Failed replacements restore the previous files.
+Keep **Updates** checked to check this repository when the installer opens. When updates are available, choose the items to download. Existing selected components are removed and installed automatically; the installer restarts itself when updating its own software. Failed replacements restore the previous files.
 
-**Settings** lets you change the update repository, component storage, downloads, backups and component folder naming. Existing files move automatically. Installed components, first originals and recovery records are preserved.
+The path panel retains its title, instructions, target status and **Guide**. Its only selection action is **Select path**. The header contains only the **Updates** checkbox.
+
+Directory rules remain configurable through `F16V-PoBit.exe --set-layout path-to-rules.json`; the command migrates existing component, download and backup folders and keeps original-backup references. See the included User Guide.
 
 This repository is a download channel. Updates are listed in [updates.json](updates.json). Software-only releases do not include Core or DLC assets. Component releases are added after their normal review and delivery process; new or disabled components are never silently enabled by an update.
 

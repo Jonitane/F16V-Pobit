@@ -5,11 +5,11 @@
       "id": "software",
       "kind": "software",
       "name": "F16V-PoBit Installer",
-      "version": "1.1.0",
-      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/installer-v1.1.0/F16V-PoBit-Installer-1.1.0.zip",
-      "size": 13945919,
-      "sha256": "dd767dcc86d023dacbf44557a792f20e01941c1c1f5313b5218f7a739c6b3406",
-      "notes": "One folder selection, optional startup update checks, selected automatic updates and editable storage folders."
+      "version": "1.1.1",
+      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/installer-v1.1.1/F16V-PoBit-Installer-1.1.1.zip",
+      "size": 13945971,
+      "sha256": "a573ca93927c09b02ea7cc234fd6aa324de5ff60e9f9c31e11d406e35df86dba",
+      "notes": "Restored path instructions and Guide, one Select path action, and only an Updates checkbox in the header."
     }
   ]
 }
