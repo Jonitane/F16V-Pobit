@@ -10,6 +10,17 @@
       "size": 13957720,
       "sha256": "d5a73c0841226bbe5762e0674d19f13da71a00d9c0fbe780fdaf137d904e2ec4",
       "notes": "Installer-owned caches and diagnostics, verified legacy migration, failed-cache cleanup, and no persistent update history."
+    },
+    {
+      "id": "f16v_base",
+      "kind": "component",
+      "name": "F16V Core",
+      "version": "2.5.1",
+      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/core-v2.5.1/F16V_CORE_2.5.1_V2.5.1_Update.zip",
+      "size": 1880480,
+      "sha256": "ea036fc4406e0f96d82cb2d805c50cb780b76f9407673d3ff4f5275f07f22055",
+      "notes": "Core update for F16V-PoBit 2.5: CPD/MFD, FLIR/TFR and CFT fuel changes.",
+      "min_installer": "1.1.19"
     }
   ]
 }
