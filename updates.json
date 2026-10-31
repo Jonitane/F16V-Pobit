@@ -15,12 +15,23 @@
       "id": "f16v_base",
       "kind": "component",
       "name": "F16V Core",
-      "version": "2.5.1",
-      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/core-v2.5.1/F16V_CORE_2.5.1_V2.5.1_Update.zip",
-      "size": 1880480,
-      "sha256": "ea036fc4406e0f96d82cb2d805c50cb780b76f9407673d3ff4f5275f07f22055",
-      "notes": "Core update for F16V-PoBit 2.5: CPD/MFD, FLIR/TFR and CFT fuel changes.",
-      "min_installer": "1.1.19"
+      "version": "2.6.1",
+      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/update-v2.6.1/F16V_CORE_2.6.1_V2.6.1_Update.zip",
+      "size": 1550468,
+      "sha256": "b7484fd29ba7740ece838f87514700251c7dbc8b9222aa4fc98b6f2412b9dfe4",
+      "notes": "Core 2.6.1 and its bundled DataLink; update CFT/AUX as well if installed.",
+      "min_installer": "1.1.20"
+    },
+    {
+      "id": "dlc.cft_aux",
+      "kind": "component",
+      "name": "CFT/AUX",
+      "version": "1.06",
+      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/update-v2.6.1/F16V_DLC_CFT_AUX_1.06_V1.06_Update.zip",
+      "size": 61632703,
+      "sha256": "c60a84bdf63571d1e96e43ebe7164166521e7e5563cceaa93b150e0875ecdcf8",
+      "notes": "CFT/AUX 1.06, including the drag chute.",
+      "min_installer": "1.1.20"
     }
   ]
 }
