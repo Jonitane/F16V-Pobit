@@ -2,9 +2,9 @@
 
 Public downloads and update channel for the F16V-PoBit installer.
 
-[Download the complete F16V-PoBit 2.93 package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.93/POBIT_F16V-V2.93.zip)
+[Download the complete F16V-PoBit 2.92 package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.92/POBIT_F16V-V2.92-R3.zip)
 
-For edition 2.92, keep **Updates** checked and accept the installer update. After it reopens, select all five component updates to move to 2.93. For an earlier edition, use the complete package above.
+The current public edition is 2.92. The installer update channel is paused.
 
 Click **Select path** and choose your aircraft path once. The installer identifies the entry and saves the setup automatically. Select Core and the optional components you want, then install them.
 
