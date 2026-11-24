@@ -2,7 +2,9 @@
 
 Public downloads and update channel for the F16V-PoBit installer.
 
-[Download the installer](https://github.com/Jonitane/F16V-Pobit/releases/latest)
+[Download the complete F16V-PoBit 2.93 package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.93/POBIT_F16V-V2.93.zip)
+
+For edition 2.92, keep **Updates** checked and accept the installer update. After it reopens, select all five component updates to move to 2.93. For an earlier edition, use the complete package above.
 
 Click **Select path** and choose your aircraft path once. The installer identifies the entry and saves the setup automatically. Select Core and the optional components you want, then install them.
 
@@ -12,7 +14,7 @@ The path panel retains its title, instructions, target status and **Guide**. Its
 
 Directory rules remain configurable through `F16V-PoBit.exe --set-layout path-to-rules.json`; the command migrates existing component, download and backup folders and keeps original-backup references. See the included User Guide.
 
-This repository is a download channel. Updates are listed in [updates.json](updates.json). Software-only releases do not include Core or DLC assets. Component releases are added after their normal review and delivery process; new or disabled components are never silently enabled by an update.
+This repository is a download channel. Current installers use [updates-v2.json](updates-v2.json). The [legacy feed](updates.json) serves older installers. Software-only releases do not include Core or DLC assets. Component releases are added after their normal review and delivery process; new or disabled components are never silently enabled by an update.
 
 The release channel uses the [update-list format](update-format.json). Each component keeps its own identity and version, and each download points to a ZIP attached to a release in this repository.
 
