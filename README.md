@@ -4,9 +4,9 @@ Public downloads and update channel for the F16V-PoBit installer.
 
 [Download the complete F16V-PoBit 2.93 package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.93/POBIT_F16V-V2.93.zip)
 
-If you already have **2.93**, [download the 2.93 component update](https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93/POBIT_F16V-V2.93-Components.zip). Extract it beside `F16V-PoBit.exe` so the two component ZIPs land in `Updates`. Open the installer and accept both updates. The public edition stays at 2.93 and the installer stays at 2.3.
+For **2.93**, enable **Updates** and open the existing installer. Accept Core 2.93.1 and DataLink 1.21. The edition changes to **2.93.1** when both components are present. If you have already installed both, check for updates and reopen the installer to refresh the version label. [2.93.1 update and release notes](https://github.com/Jonitane/F16V-Pobit/releases/tag/v2.93.1).
 
-For edition 2.92, enable **Updates** in the existing installer and accept all offered updates. The [2.92 to 2.93 update bundle](https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93/POBIT_F16V-V2.93-Update.zip) is also available. For a new installation or an edition earlier than 2.92, download the current complete package above.
+For edition **2.92** or earlier, or for a fresh installation, use the [2.93 complete package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.93/POBIT_F16V-V2.93.zip), then open it with **Updates** enabled. If an older installation offers a 2.93.1 complete download, use the 2.93 link here.
 
 Click **Select path** and choose your aircraft path once. The installer identifies the entry and saves the setup automatically. Select Core and the optional components you want, then install them.
 
