@@ -1,28 +1,134 @@
 {
   "schema": "f16v.updates/1",
-  "items": [],
-  "edition_update": {
-    "from": "2.93",
-    "version": "2.93.1",
-    "release_id": "20261125_V2.93.1_online1176",
+  "items": [
+    {
+      "id": "software",
+      "kind": "software",
+      "name": "F16V-PoBit Installer",
+      "version": "2.4.0",
+      "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/POBIT_F16V-Installer-2.4.0.zip",
+      "size": 14349219,
+      "sha256": "9168d5c87766fcf673a1c39fd17e59941b02bfb7f7b3f7a22dd36ad945672486"
+    }
+  ],
+  "component_update": {
+    "from_versions": [
+      "2.9",
+      "2.91",
+      "2.92",
+      "2.93",
+      "2.93.1"
+    ],
+    "version": "2.93.2",
+    "release_id": "20261126_V2.93.2_online1181",
     "items": [
+      {
+        "id": "core.resources",
+        "kind": "component",
+        "name": "Shared Resources",
+        "version": "1.04",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/POBIT_F16V_RESOURCES_1.04_Update.zip",
+        "size": 4640629,
+        "sha256": "bdefdf876bee73460085a42f55c8baa633222319d6a0c92e958f0cec4a618608"
+      },
+      {
+        "id": "dlc.atd",
+        "kind": "component",
+        "name": "atd",
+        "version": "1.07",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_ATD_1.07_Update.zip",
+        "size": 15062453,
+        "sha256": "769d4c7e3af52c2e85ebd4d278017b9e37331ce93e0f5a8c8893ccd88a1db81f"
+      },
+      {
+        "id": "dlc.aux",
+        "kind": "component",
+        "name": "aux",
+        "version": "1.05",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_AUX_1.05_Update.zip",
+        "size": 39746005,
+        "sha256": "049c207fe24ba62acbcecc0d35408e0f6851ed0a12e1e5bdc99bc6eb8b2487e4"
+      },
+      {
+        "id": "dlc.cft",
+        "kind": "component",
+        "name": "cft",
+        "version": "1.02",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_CFT_1.02_Update.zip",
+        "size": 4722052,
+        "sha256": "bc6064a154f03a113b1925fe93e5f42d87b2f0ff2ee743d4044884a0954998e6"
+      },
+      {
+        "id": "dlc.color_tgp",
+        "kind": "component",
+        "name": "Color TGP",
+        "version": "1.03",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_COLOR_TGP_1.03_Update.zip",
+        "size": 1283,
+        "sha256": "a90fd008038b4290ec79d698fe981ba819452abaedd8310c342563c277f9b5b5"
+      },
+      {
+        "id": "dlc.cpd",
+        "kind": "component",
+        "name": "DLC",
+        "version": "1.08",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_CPD_1.08_Update.zip",
+        "size": 36019632,
+        "sha256": "b51c0c39018bb250450735a0c23404ba8322179ec3dfe3f21343d62a0c3f7a68"
+      },
+      {
+        "id": "dlc.war_hud",
+        "kind": "component",
+        "name": "WarHUD-CM",
+        "version": "1.06",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_WAR_HUD_1.06_Update.zip",
+        "size": 39873363,
+        "sha256": "f6e89e5d83df6ed7661406231638d19b3a50f8cb4e5db8428d46d020b4fb1773"
+      },
+      {
+        "id": "dlc.weapon_agm88",
+        "kind": "component",
+        "name": "F16V_DLC_weapon_agm88_18",
+        "version": "1.03",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_WEAPON_AGM88_1.03_Update.zip",
+        "size": 24985431,
+        "sha256": "ea8194c90b82257d5bf5997a3586402f4f7dc4ffceb43013c75c220639cd6c4d"
+      },
+      {
+        "id": "dlc.weapon_amraam",
+        "kind": "component",
+        "name": "F16V_DLC_weapon_amraam_3",
+        "version": "1.01",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_WEAPON_AMRAAM_1.01_Update.zip",
+        "size": 2308871,
+        "sha256": "9ac597e151a6563fcb6404e4c52e03942554a3954b9a481f002de7fad7643535"
+      },
+      {
+        "id": "dlc.weapon_sow",
+        "kind": "component",
+        "name": "F16V_DLC_weapon_sow_10",
+        "version": "1.01",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_WEAPON_SOW_1.01_Update.zip",
+        "size": 15408215,
+        "sha256": "35b6179e5d41fa0d0d0e9362edcb7c9d0327a8d57ab9c516f8e3c0bf0f32ea6b"
+      },
       {
         "id": "f16v_base",
         "kind": "component",
         "name": "F16V Base",
-        "version": "2.93.1",
-        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.1/F16V_CORE_2.93.1_Update.zip",
-        "size": 4771692,
-        "sha256": "cf9101894e0ee415a57f1350d910f2f9c3af2477c96be94b85efe771240b3fb7"
+        "version": "2.93.2",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_CORE_2.93.2_Update.zip",
+        "size": 4779000,
+        "sha256": "79b28db90466109744980e84c9a59553d1f3f9a511536d22311de72b479644eb"
       },
       {
         "id": "interface.datalink",
         "kind": "component",
         "name": "DataLink",
-        "version": "1.21",
-        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.1/POBIT_F16V_DATALINK_1.21_Update.zip",
-        "size": 731965,
-        "sha256": "426f491f454f26f699fc1cddef3ae1cf304e298259cf62c1782c887781e8711d"
+        "version": "1.22",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/POBIT_F16V_DATALINK_1.22_Update.zip",
+        "size": 732007,
+        "sha256": "7321aa5f97aec1ffdf71afe9e1605e295692b3128246b1e72d8278e7bb6b9aa1"
       }
     ]
   }
