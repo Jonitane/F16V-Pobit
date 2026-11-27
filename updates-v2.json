@@ -17,10 +17,11 @@
       "2.91",
       "2.92",
       "2.93",
-      "2.93.1"
+      "2.93.1",
+      "2.93.2"
     ],
-    "version": "2.93.2",
-    "release_id": "20261126_V2.93.2_online1181",
+    "version": "2.94",
+    "release_id": "20261128_V2.94_online1206",
     "items": [
       {
         "id": "core.resources",
@@ -71,10 +72,19 @@
         "id": "dlc.cpd",
         "kind": "component",
         "name": "DLC",
-        "version": "1.08",
-        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_DLC_CPD_1.08_Update.zip",
-        "size": 36019632,
-        "sha256": "b51c0c39018bb250450735a0c23404ba8322179ec3dfe3f21343d62a0c3f7a68"
+        "version": "1.09",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.94/F16V_DLC_CPD_1.09_Update.zip",
+        "size": 36888576,
+        "sha256": "5817cfd41103ea4cbca9c4574db85cd08a8bb4937c25ff5c8ccebde932885c4a"
+      },
+      {
+        "id": "dlc.gbu_sdb",
+        "kind": "component",
+        "name": "GBU / SDB",
+        "version": "1.09",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.94/F16V_DLC_GBU_SDB_1.09_Update.zip",
+        "size": 19797194,
+        "sha256": "23dcc53f74d562a75e1133cccebfc20dc99e3db55ae5b34ef3ccd5d0cd91dfc1"
       },
       {
         "id": "dlc.war_hud",
@@ -116,19 +126,19 @@
         "id": "f16v_base",
         "kind": "component",
         "name": "F16V Base",
-        "version": "2.93.2",
-        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/F16V_CORE_2.93.2_Update.zip",
-        "size": 4779000,
-        "sha256": "79b28db90466109744980e84c9a59553d1f3f9a511536d22311de72b479644eb"
+        "version": "2.94",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.94/F16V_CORE_2.94_Update.zip",
+        "size": 4830343,
+        "sha256": "b911d0273d5d19665e582127721b22ef1943c881728faa8d4d3957c63ecf83d0"
       },
       {
         "id": "interface.datalink",
         "kind": "component",
         "name": "DataLink",
-        "version": "1.22",
-        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.93.2/POBIT_F16V_DATALINK_1.22_Update.zip",
-        "size": 732007,
-        "sha256": "7321aa5f97aec1ffdf71afe9e1605e295692b3128246b1e72d8278e7bb6b9aa1"
+        "version": "1.23",
+        "url": "https://github.com/Jonitane/F16V-Pobit/releases/download/v2.94/POBIT_F16V_DATALINK_1.23_Update.zip",
+        "size": 743787,
+        "sha256": "6f28405f24998c36d9263a319236a22f6531e81bbf7ffe13f1243943292506c3"
       }
     ]
   }
