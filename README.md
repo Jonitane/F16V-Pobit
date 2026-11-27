@@ -2,7 +2,7 @@
 
 Public downloads and update channel for the F16V-PoBit installer.
 
-[Download the complete F16V-PoBit 2.93.2 package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.93.2/POBIT_F16V-V2.93.2.zip)
+[Download the complete F16V-PoBit 2.94 package](https://github.com/Jonitane/F16V-PoBit-Downloads/releases/download/v2.94/POBIT_F16V-V2.94.zip)
 
 Enable **Updates** in the installer to get **Installer 2.5.0**. If prompted, install it and let it restart. Mod editions **2.9, 2.91, 2.92, 2.93, 2.93.1 and 2.93.2** can then update to **2.94**. If you already have mod 2.94, you can still update the installer. [2.94 release notes](https://github.com/Jonitane/F16V-Pobit/releases/tag/v2.94).
 
